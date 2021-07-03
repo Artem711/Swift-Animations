@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		AC5A21EF26910D45001A47DC /* AnimaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A21EE26910D45001A47DC /* AnimaterApp.swift */; };
-		AC5A21F126910D45001A47DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A21F026910D45001A47DC /* ContentView.swift */; };
 		AC5A21F326910D45001A47DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5A21F226910D45001A47DC /* Assets.xcassets */; };
 		AC5A21F626910D45001A47DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5A21F526910D45001A47DC /* Preview Assets.xcassets */; };
+		AC5A220126910D6A001A47DC /* CircleDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A220026910D6A001A47DC /* CircleDragView.swift */; };
+		AC5A220626910D8B001A47DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A220526910D8B001A47DC /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC5A21EB26910D45001A47DC /* Animater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5A21EE26910D45001A47DC /* AnimaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaterApp.swift; sourceTree = "<group>"; };
-		AC5A21F026910D45001A47DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC5A21F226910D45001A47DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC5A21F526910D45001A47DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC5A21F726910D45001A47DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5A220026910D6A001A47DC /* CircleDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDragView.swift; sourceTree = "<group>"; };
+		AC5A220526910D8B001A47DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		AC5A21ED26910D45001A47DC /* Animater */ = {
 			isa = PBXGroup;
 			children = (
+				AC5A21FF26910D62001A47DC /* Views */,
+				AC5A220526910D8B001A47DC /* HomeView.swift */,
 				AC5A21EE26910D45001A47DC /* AnimaterApp.swift */,
-				AC5A21F026910D45001A47DC /* ContentView.swift */,
 				AC5A21F226910D45001A47DC /* Assets.xcassets */,
 				AC5A21F726910D45001A47DC /* Info.plist */,
 				AC5A21F426910D45001A47DC /* Preview Content */,
@@ -67,6 +70,14 @@
 				AC5A21F526910D45001A47DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC5A21FF26910D62001A47DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC5A220026910D6A001A47DC /* CircleDragView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC5A21F126910D45001A47DC /* ContentView.swift in Sources */,
+				AC5A220626910D8B001A47DC /* HomeView.swift in Sources */,
+				AC5A220126910D6A001A47DC /* CircleDragView.swift in Sources */,
 				AC5A21EF26910D45001A47DC /* AnimaterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
